@@ -17,6 +17,11 @@ You can invoke test lokally by using forexample `npx serve ./{folder}`.
 1. notes: requires to being compiled
 
 ## funcy
-1. **See [todo](https://refined-github-html-preview.kidonng.workers.dev/jaandrle/playground-generating-html-dom/raw/main/funcy/index.html):{target=_blank} – src: [./funcy]{./funcy}.**
+1. **See [todo](https://refined-github-html-preview.kidonng.workers.dev/jaandrle/playground-generating-html-dom/raw/main/funcy/index.html) – src: [./funcy]{./funcy}.**
 1. repo: [michael-klein/funcy.js: funcy.js - a functional web components wrapper](https://github.com/michael-klein/funcy.js)
 1. notes: no compilation needed (uses [michael-klein/hookuspocus: hooks for all the functions!](https://github.com/michael-klein/hookuspocus), [Preact | Alternatives to JSX](https://preactjs.com/guide/v10/getting-started/#alternatives-to-jsx) – [developit/htm: Hyperscript Tagged Markup: JSX alternative using standard tagged templates, with compiler support.](https://github.com/developit/htm))
+
+## TBD
+1. [jaandrle/dollar_dom_component: Functional DOM components without JSX and virtual DOM. Subrepository for https://github.com/jaandrle/jaaJSU ($dom namespace)](https://github.com/jaandrle/dollar_dom_component)
+1. [Wildhoney/Switzerland: 🇨🇭Switzerland takes a functional approach to Web Components by applying middleware to your components. Supports Redux, attribute mutations, CSS variables, React-esque setState/state, etc… out-of-the-box, along with Shadow DOM for style encapsulation and Custom Elements for interoperability.](https://github.com/Wildhoney/Switzerland)
+1. ? [Freak613/domc: DOM compiler](https://github.com/Freak613/domc)
