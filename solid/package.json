@@ -1,0 +1,26 @@
+{
+  "name": "solid-simple-todos-tagged-template-literals",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "solid-js": "0.22.0"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.6.1"
+  },
+  "keywords": [],
+  "jshintConfig": {
+    "esversion": 6,
+    "browser": "true",
+    "undef": "true",
+    "latedef": "true",
+    "maxparams": 4,
+    "maxdepth": 2,
+    "maxcomplexity": 10
+  }
+}

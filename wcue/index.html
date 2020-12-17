@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"/>
+        <link rel="stylesheet" href="style.css">
+        <script src="wcue.js"></script>
+        <title>Web Components</title>
+    </head>
+    <body>
+        <h2>Info</h2>
+        <p>These are just experiments with Web Components. There is also experiment making WC more declarative ("Vue way") – see <a href="./wcue.js"><code>wcue.js</code></a>.</p>
+        <p>Some materials for studying:</p>
+        <ol>
+            <li><a href="https://developer.mozilla.org/en-US/docs/Web/Web_Components">MDN | Web Components</a></li>
+            <li><a href="https://github.com/webcomponents/element-boilerplate/blob/master/my-element.html">element-boilerplate</a></li>
+            <li><a href="https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_custom_elements">MDN | Using custom elements</a></li>
+            <li><a href="https://blog.webf.zone/on-styling-web-components-b74b8c70c492">On styling WC</a></li>
+            <li><a href="https://github.com/atomicojs/atomico">atomicojs</a></li>
+        </ol>
+        <hr>
+        <h2>Experiments</h2>
+        <!--
+            Components declarations
+        -->
+        <template data-name="test-text">
+            <!-- <wcue-global-styles></wcue-global-styles> -->
+            <link rel="stylesheet" href="style.css">
+            <p class="color__blue" ref="change_color">
+                <slot ref="test"></slot>
+            </p>
+            <script>console.dir("test-text > script")</script>
+        </template>
+        <script>
+            wcue.register({
+                refs: {
+                    change_color: wcue.useEffect(({ dataset: { color } }, el)=> color ? !void(el.className= color) : false),
+                    test: wcue.useEffect(console.log)
+                }
+            });
+        </script>
+        <template data-name="test-section">
+            <h4>Section <slot name="title"></slot></h4>
+            <test-text data-color="color__red"><slot></slot></test-text>
+        </template>
+        <script>wcue.register();</script>
+        <!--
+            Components usage
+        -->
+        <h3>Experiment 1.</h3>
+        <test-text>
+            Hello World
+        </test-text>
+        <h3>Experiment 2.</h3>
+        <test-section>
+            <span slot="title"><code>&lt;slot&gt;</code> usage</span>
+            Another <code>&lt;slot&gt;</code>
+        </test-section>
+        <hr>
+        <h2>Notes</h2>
+        <p>The big pros/cons of shadow root is global styling</p>
+    </body>
+</html>
