@@ -7,7 +7,7 @@ export function todosComponent({ todos= [], newTitle= "", onchange= ()=>{} }= {}
         click_newTodo= $dom.componentListener("click", ()=> onchange({ type: "add" }) );
     
     const { add, dynamicComponent, share }= $dom.component("DIV");
-        add("h3", { textContent: "Simple Todos Example" });
+        add("H3", { textContent: "Simple Todos Example" });
         add("INPUT", { type: "text", placeholder: "enter todo and click +" }, -1)
          .onupdate({ newTitle }, ({ newTitle: value })=> ({ value }))
          .on(change_newTitle);
@@ -15,7 +15,6 @@ export function todosComponent({ todos= [], newTitle= "", onchange= ()=>{} }= {}
          .on(click_newTodo);
         dynamicComponent({ type: "add", todos }, function(use, _, { type, todos }){
             if(type!=="add"&&type!=="remove") return false;
-            console.log("ahoj"); /* jshint devel: true *///gulp.keep.line
             use(todosListComponent(todos, onchange));
         }, -1);
     return share;
