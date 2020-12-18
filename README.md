@@ -24,7 +24,7 @@ You can invoke test lokally by using forexample `npx serve ./{folder}`.
 ## $dom.component
 1. **See [todo](https://refined-github-html-preview.kidonng.workers.dev/jaandrle/playground-generating-html-dom/raw/main/$dom/index.html) – src: [./$dom](./$dom).**
 1. repo: [jaandrle/dollar_dom_component: Functional DOM components without JSX and virtual DOM. Subrepository for https://github.com/jaandrle/jaaJSU ($dom namespace)](https://github.com/jaandrle/dollar_dom_component)
-1. notes: no compilation, no JSX like syntax, reactive=> may be wordy=> +/- good approach is keeping komponents small and indepened
+1. notes: no compilation, no JSX like syntax, reactive=> may be wordy=> +/-? good approach is keeping komponents small and indepened, requres thinking about update process
 
 ## TBD
 1. [Wildhoney/Switzerland: 🇨🇭Switzerland takes a functional approach to Web Components by applying middleware to your components. Supports Redux, attribute mutations, CSS variables, React-esque setState/state, etc… out-of-the-box, along with Shadow DOM for style encapsulation and Custom Elements for interoperability.](https://github.com/Wildhoney/Switzerland)
