@@ -59,6 +59,7 @@ export function todosComponent() {
           (todo) =>
             html`<${nthTodoComponent} onchange=${onchange} dataset=${todo} />`
         )}
+      <p><b>State:</b> ${()=> JSON.stringify(state)}</p>
     </div>
   `;
 }
