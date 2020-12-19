@@ -1,4 +1,8 @@
 /* global $dom */
+/**
+ * 
+ * @param {import("../todos").todo & { onchange: function }} def
+ */
 export function nthTodoComponent({ id, title, done, onchange }){
     const /* listeners */
         change_newInfo= $dom.componentListener("change", function(event){
