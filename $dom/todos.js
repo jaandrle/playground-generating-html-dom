@@ -18,8 +18,8 @@ const storage_name= "todos";
  */
 let app_state= fromStorage(storage_name) || { idCounter: 0, newTitle: "", todos: [] };
 
-import { pubsubProtocol, subscribers, mapper, publish } from "./utils/pubsub.js";
-const pubsub= mapper(pubsubProtocol(), function({ type, id, value }){
+import { empty, subscribers, mapper, publish } from "./utils/pubsub.js";
+const pubsub= mapper(empty(), function({ type, id, value }){
     let updated= {};
     switch (type){
         case "title":

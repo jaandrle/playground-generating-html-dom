@@ -16,7 +16,7 @@ const identity= v=> v;
 /**
  * @returns {PubSub}
  */
-export function pubsubProtocol(){
+export function empty(){
     return { mapFun: identity, listeners: null };
 }
 /**

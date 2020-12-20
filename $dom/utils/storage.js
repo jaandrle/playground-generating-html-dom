@@ -1,3 +1,8 @@
+/**
+ * 
+ * @param {string} name Name of localStorage key
+ * @returns {object|null}
+ */
 export function fromStorage(name){
     return localStorage[name] ? JSON.parse(localStorage[name]) : null;
 }

@@ -1,4 +1,8 @@
 /* global $dom */
+/**
+ * 
+ * @param {import("../todos").AppState} status 
+ */
 export function statusComponent(status){
     const { add, addText, share }= $dom.component("P");
         add("B", { textContent: "State: " });
