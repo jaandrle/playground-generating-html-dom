@@ -29,3 +29,4 @@ You can invoke test lokally by using forexample `npx serve ./{folder}`.
 ## TBD
 1. [Wildhoney/Switzerland: 🇨🇭Switzerland takes a functional approach to Web Components by applying middleware to your components. Supports Redux, attribute mutations, CSS variables, React-esque setState/state, etc… out-of-the-box, along with Shadow DOM for style encapsulation and Custom Elements for interoperability.](https://github.com/Wildhoney/Switzerland)
 1. ? [Freak613/domc: DOM compiler](https://github.com/Freak613/domc)
+1. ? [hybridsjs/hybrids: The simplest way to create web components from plain objects and pure functions! 💯](https://github.com/hybridsjs/hybrids)
