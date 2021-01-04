@@ -1,6 +1,6 @@
-import html from "solid-js/html";
-import { createLocalState } from "../hooks/createLocalState";
-import { nthTodoComponent } from "./nthTodoComponent";
+import html from "https://cdn.skypack.dev/solid-js/html";
+import { createLocalState } from "../hooks/createLocalState.js";
+import { nthTodoComponent } from "./nthTodoComponent.js";
 
 export function todosComponent() {
   const [state, setState] = createLocalState("todos", {

@@ -1,4 +1,4 @@
-import html from "solid-js/html";
+import html from "https://cdn.skypack.dev/solid-js/html";
 
 export function nthTodoComponent({ dataset: { id, done, title }, onchange }) {
   return html`

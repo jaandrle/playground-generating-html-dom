@@ -1,4 +1,4 @@
-import { createState, createEffect } from "solid-js";
+import { createState, createEffect } from "https://cdn.skypack.dev/solid-js";
 
 export function createLocalState(name, initState) {
     const [state, setState] = createState(initState);
