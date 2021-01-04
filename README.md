@@ -11,8 +11,8 @@ You can invoke test lokally by using forexample `npx serve ./{folder}`.
 1. **See [experiment](https://refined-github-html-preview.kidonng.workers.dev/jaandrle/playground-generating-html-dom/raw/main/wcue/index.html) – src: [./wcue](./wcue).**
 1. Just experiments with Web Components.
 
-## solid
-1. **See [todo](https://codesandbox.io/s/solid-simple-todos-tagged-template-literals-forked-2ek1q) (backup [./solid](./solid)).**
+## solid-jsx
+1. **See [todo](https://codesandbox.io/s/solid-simple-todos-tagged-template-literals-forked-2ek1q) (backup [./solid-jsx](./solid-jsx)).**
 1. repo: [ryansolid/solid: A declarative, efficient, and flexible JavaScript library for building user interfaces.](https://github.com/ryansolid/solid)
 1. notes: requires to being compiled
 
