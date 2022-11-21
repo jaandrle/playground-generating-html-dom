@@ -1,0 +1,11 @@
+{
+  "jshintConfig": {
+    "esversion": 6,
+    "browser": "true",
+    "undef": "true",
+    "latedef": "true",
+    "maxparams": 4,
+    "maxdepth": 2,
+    "maxcomplexity": 10
+  }
+}
