@@ -1,3 +1,4 @@
+//https://www.arrow-js.com/#intro
 import { r, t as html } from 'https://cdn.skypack.dev/@arrow-js/core';
 function component(data_init= {}){
 	let template;
